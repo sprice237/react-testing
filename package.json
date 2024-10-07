@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "remix vite:dev",
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
@@ -20,6 +22,8 @@
   },
   "devDependencies": {
     "@remix-run/dev": "^2.12.1",
+    "@types/react": "^18.3.11",
+    "typescript": "^5.6.2",
     "vite": "^5.4.8"
   }
 }

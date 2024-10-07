@@ -5,6 +5,8 @@ import {
   Scripts,
 } from "@remix-run/react";
 
+import { Hello } from './Hello';
+
 export default function App() {
   return (
     <html>
@@ -17,7 +19,7 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <h1>Hello world!</h1>
+        <Hello />
         <Outlet />
 
         <Scripts />
